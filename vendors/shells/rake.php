@@ -47,6 +47,7 @@ class RakeShell extends TestSuiteShell {
       foreach($this->args as $arg){
         if($arg == 'verbose'){
           $this->verbose = true;
+          return;
         }
       }
     }
@@ -59,7 +60,7 @@ class RakeShell extends TestSuiteShell {
     parent::help();
     $this->out();
 		$this->out('Verbose Output: ');
-		$this->out("\n\nAppend 'verbose' to any of the above to see verbose output of tests");
+		$this->out("Append 'verbose' to any of the above to see verbose output of tests");
   }
   
   /**
