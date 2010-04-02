@@ -123,7 +123,7 @@ class RakeReporter extends CakeBaseReporter {
 		);
 		$message .= $this->_getBreadcrumb();
 		$this->buffer .= 'EXCEPTION' . $this->separator . $message;
-		fwrite(STDERR, 'E');
+		fwrite(STDERR, 'x');
 	}
 
 /**

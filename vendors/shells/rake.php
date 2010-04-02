@@ -11,7 +11,7 @@
   * pass      -> .
   * fail      -> f
   * error     -> e
-  * exception -> E
+  * exception -> x
   * skip      -> s
   *
   * If the verbose option is given all passes are also buffered and outputted.
