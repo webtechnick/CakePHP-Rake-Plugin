@@ -8,11 +8,11 @@
   * output until all tests are complete.   Durring the tests constant feedback is given
   * to the user.  Each pass/fail/etc.. during testing is represented in like so:
   * 
-  * pass      -> .
-  * fail      -> f
-  * error     -> e
-  * exception -> x
-  * skip      -> s
+  * - pass      -> .
+  * - fail      -> f
+  * - error     -> e
+  * - exception -> x
+  * - skip      -> s
   *
   * If the verbose option is given all passes are also buffered and outputted.
   * 
